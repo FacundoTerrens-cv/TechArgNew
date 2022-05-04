@@ -5,8 +5,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: absolute;
-    z-index: 3;
+    /* position: absolute; 
+    z-index: 3; */
 }
 .logo{
     display: flex;
