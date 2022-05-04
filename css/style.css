@@ -198,7 +198,7 @@
     background: transparent;
     cursor: pointer;
     transition: all 0.3s ease;
-    position: relative;
+    /* position: relative; */
     display: inline-block;
     outline: none;
 }
@@ -209,16 +209,17 @@
     padding: 0;
     border: none;
     background-color: #fff;
-    margin: 10px;
+    margin: 10px auto;
     display: flex;
-    margin-left: 5%;
+    /* margin-left: 5%; */
+    display: block;
 }
-.btn-4 span {
-    position: relative;
+ .btn-4 span {
+    position: relative; 
     display: block;
     width: 100%;
     height: 100%;
-}
+} 
 .btn-4:before, .btn-4:after {
     position: absolute;
     content: "";
@@ -280,7 +281,7 @@
     background: transparent;
     cursor: pointer;
     transition: all 0.3s ease;
-    position: relative;
+    /* position: relative; */
     display: inline-block;
     outline: none;
 }
@@ -393,10 +394,32 @@
  .caretag-text-box-recuadros{
      display: flex;
      width: 90%;
-     background-color: transparent;
+     /* background-color: transparent; */
+     background-color: rgba(0, 0, 0, .7);
      height: auto;
      margin: 0 auto;
      margin-top: -8%;
+     z-index: 2;
+      position: relative; 
+     top: 200px;
+}
+.caretag-text-box-recuadros a button {
+    width: 400px;
+}
+
+.containerIndex {
+    background-color: rgba(0, 0, 0, .7);
+    width: 100vw;
+    height: 105vh;
+    z-index: 1000;
+    position: absolute;
+    top: 120px;
+}
+.containerIndex h1,.containerIndex h2 {
+    color: white;
+    width: 50%;
+    margin: 50px;
+    text-align: center;
 }
  .box-caretag{
      display: inline-block;
@@ -407,6 +430,7 @@
      margin: 30px;
      margin-left:10px;
      margin-right:10px;
+
 }
  .contenido-box-caretag{
      font-weight: 300;
@@ -687,9 +711,13 @@
  @media (max-width: 800px) {
     .caretag-text-box-recuadros{
         display: flex;
-        width: 100%;
+        width: 80vw;
         background-color: transparent;
         margin-top: -55%;
+        margin: 0 auto;
+   }
+   .caretag-text-box-recuadros a button {
+       width: 100%;
    }
     .btn-4 {
         width: 70%;
@@ -778,7 +806,18 @@
     }
 
    .height-video{
-    margin-top: 5vh;
+    margin-top: 5vh;}
+    .caption p {
+        margin: 0 20%;
+        text-align: center;
+    }
+    .marketingCard {
+        background-color: #000;
+    }
+   
+}
+.caption p {
+    color: white;
 }
      #titulofoto{
          font-size: 25px;
@@ -885,7 +924,7 @@
      .recuadro{
          margin-left: 10px;
     }
-}
+
  .input-number{
      width: 80px;
      padding: 0 12px;
@@ -914,6 +953,41 @@
 }
  html, body {
      height: 100%;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.containerMarketing {
+    position: absolute;
+    top: 120px;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.containerWebapps {
+    background-color: rgba(0, 0, 0, .7);
+    height:90vh;
+    position: absolute;
+    top: 120px;
+    z-index: 100;
+}
+.containerWebapps p {
+    color: white;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+.cardsContainer {
+    margin:10px 80%;
+}
+.headerApps {
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.textos-nosotros{
+    text-align: center;
+    color: #fff;
 }
 #facebook {
     background: url(../images/facebook.png) center center / cover no-repeat;
