@@ -958,6 +958,10 @@ h1 {
     margin-bottom: 100px;
     margin-top: 100px;
 }
+.textos-nosotros{
+    text-align: center;
+    color: #fff;
+}
 #facebook {
     background: url(../images/facebook.png) center center / cover no-repeat;
 }

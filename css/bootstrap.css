@@ -1204,7 +1204,7 @@ pre code {
   .col-lg-5 {
     -ms-flex: 0 0 41.666667%;
     flex: 0 0 41.666667%;
-    max-width: 41.666667%;
+    max-width: 20%;
   }
   .col-lg-6 {
     -ms-flex: 0 0 50%;
@@ -7826,8 +7826,40 @@ button.bg-dark:focus {
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
 }
 
-.shadow {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+@media (min-width: 768px) {
+
+  .col-sm-5 {
+
+    float: left;
+
+    width: 20%;
+
+  }
+
+}
+
+@media (min-width: 992px) {
+
+  .col-md-5 {
+
+    float: left;
+
+    width: 20%;
+
+  }
+
+}
+
+@media (max-width: 1200px) {
+
+  .col-lg-5 {
+
+    float: left;
+
+    width: 20%;
+
+  }
+
 }
 
 .shadow-lg {

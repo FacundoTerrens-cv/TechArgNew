@@ -1047,11 +1047,7 @@
 	  -ms-flex: 0 0 33.33333%;
 	  flex: 0 0 33.33333%;
 	  max-width: 33.33333%; }
-	.col-lg-5 {
-	  -webkit-box-flex: 0;
-	  -ms-flex: 0 0 41.66667%;
-	  flex: 0 0 41.66667%;
-	  max-width: 41.66667%; }
+
 	.col-lg-6 {
 	  -webkit-box-flex: 0;
 	  -ms-flex: 0 0 50%;
@@ -3778,9 +3774,9 @@
 	flex-direction: column;
 	min-width: 0;
 	word-wrap: break-word;
-	background-color: #fff;
+	background-color: transparent;
 	background-clip: border-box;
-	border: 1px solid rgba(0, 0, 0, 0.125);
+
 	border-radius: 0.25rem; }
 	.card > hr {
 	  margin-right: 0;
@@ -6472,9 +6468,7 @@
 	-webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
 	box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important; }
   
-  .shadow {
-	-webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
-	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; }
+
   
   .shadow-lg {
 	-webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
