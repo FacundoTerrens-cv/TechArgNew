@@ -1,12 +1,10 @@
 .menu{
     background-color: rgba(0, 0, 0, .7);
-    height: 120px;
+    padding: 20px 0;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* position: absolute; 
-    z-index: 3; */
 }
 .logo{
     display: flex;

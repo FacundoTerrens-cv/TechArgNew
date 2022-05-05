@@ -395,20 +395,25 @@
      display: flex;
      width: 90%;
      /* background-color: transparent; */
-     background-color: rgba(0, 0, 0, .7);
+     background-color: rgba(0, 0, 0, .5);
      height: auto;
      margin: 0 auto;
      margin-top: -8%;
      z-index: 2;
       position: relative; 
-     top: 200px;
+      top: 250px; 
 }
 .caretag-text-box-recuadros a button {
     width: 400px;
 }
+@media (min-width: 1500px){
+    .caretag-text-box-recuadros{ 
+        top: 350px;
+     }
+}
 
 .containerIndex {
-    background-color: rgba(0, 0, 0, .7);
+    background-color: rgba(0, 0, 0, .5);
     width: 100vw;
     height: 105vh;
     z-index: 1000;
@@ -417,9 +422,12 @@
 }
 .containerIndex h1,.containerIndex h2 {
     color: white;
-    width: 50%;
     margin: 50px;
     text-align: center;
+}
+
+.containerIndex h2 {
+    color: #d6b0ee;
 }
  .box-caretag{
      display: inline-block;
@@ -811,10 +819,17 @@
         margin: 0 20%;
         text-align: center;
     }
-    .marketingCard {
-        background-color: #000;
-    }
-   
+    
+}
+.marketingCardContainer {
+   justify-content: center;
+}
+
+.marketingCard {
+    background-color: #000;
+     margin-left:20px;
+    margin-right: 20px; 
+    margin-top: 50px;
 }
 .caption p {
     color: white;
@@ -963,10 +978,22 @@ h1 {
     position: absolute;
     top: 120px;
     z-index: 100;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+}
+.containerMarketing h2{
+    color: #fff;
+    width: 60%;
+    margin: 0 auto;
+    font-size:20px ;
+
+}
+.containerMarketing h1 {
+    margin-top: 30px;
+    font-size: 40px;
 }
 .containerWebapps {
-    background-color: rgba(0, 0, 0, .7);
+    background-color: rgba(0, 0, 0, .5);
     height:90vh;
     position: absolute;
     top: 120px;
@@ -988,6 +1015,30 @@ h1 {
 .textos-nosotros{
     text-align: center;
     color: #fff;
+}
+
+.nosotrosContainer {
+    position: absolute;
+    top: 220px;
+    height: 110vh;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.nosotrosContainer h1 {
+    color: white;
+    text-align: center;
+}
+.cardMarketing {
+    position: initial;
+}
+.containerCardsTecnologias {
+    margin: 0 40px;
+
+}
+.cardTecnologia {
+    position: relative;
+    height: 100%;
+    top: 0;
 }
 #facebook {
     background: url(../images/facebook.png) center center / cover no-repeat;
