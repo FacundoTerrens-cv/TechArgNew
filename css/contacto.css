@@ -3850,7 +3850,7 @@
 	border-radius: calc(0.25rem - 1px); }
   
   .card-img-top {
-	width: 90%;
+	width: 80%;
 	border-top-left-radius: calc(0.25rem - 1px);
 	border-top-right-radius: calc(0.25rem - 1px); }
   
