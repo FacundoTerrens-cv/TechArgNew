@@ -8229,8 +8229,9 @@
 		  text-transform: uppercase;
 		  font-weight: 600; }
 		  .btn.btn-primary:hover, .btn.btn-primary:focus {
-			border-color: #a57f48 !important;
-			background: #a57f48 !important; }
+			border-color: #fff !important;
+			background: #fff!important; 
+			color:#000;}
   
   textarea.form-control {
 	height: inherit !important; }
@@ -8302,8 +8303,9 @@
 	  text-transform: uppercase;
 	  font-weight: 600; }
 	  .btn.btn-primary:hover, .btn.btn-primary:focus {
-		border-color: #a57f48 !important;
-		background: #a57f48 !important; }
+		border-color: #fff!important;
+		background: #fff!important; 
+		color:#000;}
   
   .contactForm .label {
 	color: #fff;
