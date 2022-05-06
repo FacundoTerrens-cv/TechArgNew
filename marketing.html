@@ -19,13 +19,13 @@
    <link href="node_modules/flag-icons/css/flag-icons.css" rel="stylesheet" />
    <!-- responsive style -->
    <link href="css/responsive.css" rel="stylesheet" />
+   <link href="css/style.css" rel="stylesheet" />
    <style type="text/css">
       BODY {
          font-family: 'mifuente'
       }
-      </style>
+   </style>
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-   <link href="css/style.css" rel="stylesheet" />
    <script type="text/javascript" src="js/app.js"></script>
    <script type="text/javascript" src="js/img.js"></script>
 </head>
@@ -40,6 +40,7 @@
                         <li><a href="tecnologia.html"><button class="custom-btn btn-3"><span>Tecnología</span></button></a></li>
                          <li><a href="marketing.html"><button class="custom-btn btn-3"><span>Marketing</span></button></a></li>
                          <li><a href="nosotros.html"><button class="custom-btn btn-3"><span>Nosotros</span></button></a></li>
+                         <li><a href="contacto.html"><button class="custom-btn btn-3"><span>Contacto</span></button></a></li>
                          <!-- <li><a href=""><button class="custom-btn btn-3"><span>Contact</span></button></a></li> -->
                          <!-- <li style="margin: auto;background:#fff;border-radius:0px"><a href=""><span class="fi fi-es"></span></a>
                          </li>
@@ -67,11 +68,8 @@
                   width: 100%;">
             </video>
          </div>
-      
-          <!-- <div class="caretag-text-box-recuadros" > -->
-         <!-- style="z-index: 2;position: absolute; margin-top: -43.85%;" -->
-         <div class="containerMarketing" >
-         <!-- style="width: 100%;background-color: rgba(0, 0, 0, .7);height:90vh" -->
+         <div class="caretag-text-box-recuadros"></div>
+         <div class=" containerMarketing" style="background-color: rgba(0, 0, 0, .7);">
             <div>
                <h1>MARKETING</h1>
                <!-- style="text-align:center; color:#fff;font-size:100px" -->
@@ -80,102 +78,85 @@
                <!-- style="display: flex;margin-top: -3%;" -->
                <img src="images/funcional3.png" alt="" style="margin:0 auto;width:100px;height:100px;display:block">
                <h2 style="font-size:30px; text-align: center;">Nuestros servicios</h2>
-               <div class="row marketingCardContainer">
-            <div class="marketingCard col-xs-6 col-md-3">
-               <div class="thumbnail">
-                  <!-- style="text-align:center;color: #fff;font-size: 60px;" -->
-                  <h1>OFERTA PYMES</h1>
-                  <div class="caption">
-                     <!-- style="color: #fff;
-                        text-align: center;
-                        width: 400px;
-                        margin-left: 102px;" -->
-                     <p>Una Pymes necesita un completo asesoramiento para entrar en el
-                        mercado, necesita una difusión en redes sociales, si están comenzando, pónganse en contacto
-                        con nosotros, para brindarles el mejor servicio, incluso si tienes una idea genial, pero no
-                        tienes los fondos para arrancar con tu emprendimiento, nosotros te podemos ayudar. Tenemos
-                        todas las tecnologías necesarias para esto, estamos enfocados en expandir y ayudar a las
-                        pequeñas empresas que quieren arrancar, pero no saben por dónde, inscríbase en nuestro plan
-                        de Incubación de Proyectos.</p>
-                     <a href="marketing-pag.html">
-                           <button class="custom-btnn btn-4" id="btn-abrir-popup3"><span>Leer Mas</span></button></a>
-                     
-                     <!-- style="margin-top: 26px;
-                              margin-left: 150px;
-                              margin-right: 10px;
-                              width: 300px;
-                              background: transparent;
-color: #fff;
-border: 2px solid;"  -->
-                  </div>
-               </div>
             </div>
-            <div class="marketingCard col-xs-6 col-md-3">
-               <div class="thumbnail">
-                  <!-- style="text-align:center;color: #fff;font-size: 60px;" -->
-                  <h1>PLAN EMPRESARIAL</h1>
-                  <div class="caption">
-                     <!-- style="color: #fff;
-                              text-align: center;
-                              width: 400px;
-                              margin-left: 102px;" -->
-                     <p>Una empresa puede ser muy exitosa, pero siempre puede serlo más,
-                        muchas veces es difícil expandir nuestra empresa al exterior del país, siempre es bueno
-                        buscar nuevos horizontes, y nosotros te podemos ayudar con esto, contamos con contactos de
-                        las empresas más exitosas de Europa, como también, contamos con una amplia experiencia en el
-                        Marketing Europeo, trabajando con las ultimas tendencias y estrategias, para que tu marca sea
-                        de las mejores posicionada. </p>
-                     <a href="marketing-emp.html">
-                           <button class="custom-btnn btn-4" id="btn-abrir-popup3"> <span>Leer Mas</span></button>
-                        </a>
+            <div class="row containerCardsTecnologias">
+               <div class="col-xs-6 col-md-4">
+                  <div class="cardMarketing">
+                     <h1>OFERTA PYMES</h1>
+                     <div class="caption">
+                        <p>Una Pymes necesita un completo asesoramiento para entrar en el
+                           mercado y difusión en redes sociales. Si están comenzando, pónganse en contacto
+                           con nosotros, para brindarles el mejor servicio. Si tienes una idea genial, pero no
+                           tienes los fondos para arrancar con tu emprendimiento, nosotros te podemos ayudar. Inscríbase en nuestro plan
+                           de Incubación de Proyectos.</p>
+                           <div class="buttonContainer">
+
+                              <button class="custom-btnn btn-4" id="btn-abrir-popup3" style="width: 30%;
+                              bottom:20px"><span> <a
+                                       href="marketing-pag.html">Leer Mas</a></span></button>
+                           </div>
+                     </div>
                   </div>
                </div>
-            </div>
-            <div class="marketingCard col-xs-6 col-md-3">
-               <div class="thumbnail">
-                  <!-- style="text-align:center;color: #fff;font-size: 60px;"-->
-                  <h1>SISTEMA ENTERPRISE</h1>
-                  <div class="caption">
+               <!-- col-xs-6 col-md-3 -->
+               <div class="col-xs-6 col-md-4">
+                  <div class="card cardMarketing">
+                     <h1 class="card-title">PLAN EMPRESARIAL</h1>
+                     <div class="caption">
+                        <p>Una empresa siempre puede ser más exitosa. <br>
+                           Muchas veces es difícil expandirse al exterior del país, por eso te podemos ayudar a buscar nuevos horizontes.
+                           Tenemos contactos con
+                           las empresas más exitosas de Europa y una amplia experiencia en el
+                           Marketing Europeo, trabajando con las ultimas tendencias y estrategias, para que tu marca sea
+                           de las mejores posicionada. </p>
+                        <div class="buttonContainer">
 
-                     <!-- style="color: #fff;
-                              text-align: center;
-                              width: 400px;
-                              margin-left: 102px;" -->
-                     <p>Si tu empresa ya es de renombre, no podrás quedarte atrás y mantener
-                        tu status, deveras mantenerte constantemente pendiente a las tendencias del mercado, para
-                        siempre estar entre las empresas más exitosas, mejora aún más la visualización de tu marca,
-                        para que aun más clientes confíen en ella, y nuevos clientes opten por tu marca </p>
-                     <a href="marketing-enter.html">
-
-                           <!-- style="margin-top: 142px;
-                              margin-left: 150px;
-                              margin-right: 10px;
-                              width: 300px;
-                              background: transparent;
-color: #fff;
-border: 2px solid;" -->
-                           <button class="custom-btnn btn-4" id="btn-abrir-popup3"><span>Leer Mas</span></button>
-                        </a>
+                           <button class="custom-btnn btn-4" id="btn-abrir-popup3"
+                           style="bottom:15px"><span><a
+                                    href="marketing-emp.html">Leer Más</a></span></button>
+                        </div>
+                     </div>
                   </div>
                </div>
+               <div class="col-xs-6 col-md-4">
+                  <div class="cardMarketing">
+                     <h1>
+                        SISTEMA ENTERPRISE</h1>
+                     <div class="caption">
+                        <p>Si tu empresa ya es de renombre, no podrás quedarte atrás y mantener
+                           tu status, deveras mantenerte constantemente pendiente a las tendencias del mercado, para
+                           siempre estar entre las empresas más exitosas, mejora aún más la visualización de tu marca,
+                           para que aun más clientes confíen en ella, y nuevos clientes opten por tu marca 
+                        </p>
+                        <div class="buttonContainer">
+
+                           <button class="custom-btnn btn-4" id="btn-abrir-popup3" style="width: 30%;
+                           bottom:20px"><span> <a
+                                    href="marketing-enter.html">Leer Más</a></span></button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+              
             </div>
          </div>
-            <nav class="menu" style="background-color: #000;">
-               <div style="margin: 0 auto;">
-                  <label class="logo" style="padding-left: 0px;"><img src="images/webii55.png" alt=""
-                        style="width: 205px;"></label>
-                  <h style="text-align: center;
-                           font-size: 25px;">
-                     Produsert av <img src="images/tn.png" alt="" style="width: 170px;margin-bottom: 12px;;">
-                     </h1>
-               </div>
-               </span>
-            </nav>
-         </div>
-      </section>
-      </div>
+         <nav class="menu" style="background-color: #000; position: relative; z-index: 3000; bottom: -200px;">
+            <div style="margin: 0 auto;">
+               <label class="logo" style="padding-left: 0px;"><img src="images/webii55.png" alt=""
+                     style="width: 205px;"></label>
+               <h style="text-align: center;
+                        font-size: 25px;">
+                  Produsert av <img src="images/tn.png" alt="" style="width: 170px;margin-bottom: 12px;;">
+                  </h1>
+            </div>
+            </span>
+         </nav>
+   </div>
+   </section>
    <script src="js/popup2.js"></script>
    <script src="js/popup.js"></script>
+   
+   </div>
 </body>
 
 </html>
