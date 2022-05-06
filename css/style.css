@@ -1137,7 +1137,7 @@ h1 {
     border: 2px solid white;
     height: 450px;
     top: 0;
-    /* background-color: #000; */
+    margin: auto;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
@@ -1170,9 +1170,10 @@ h1 {
 }
 .cardTecnologia p {
     color: #fff;
-                              text-align: center;
-                              width: 300px;
-                              padding:20px;
+ text-align: center;
+ width: 300px;
+ padding:20px;
+ margin: auto;
 }
 
 .softwareContainer {
