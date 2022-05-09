@@ -30,29 +30,24 @@
 
 </head>
 
-<body style="background-color: #000;overflow-x: hidden;">
-   <div style="padding: 0;background-color: #000;">
-      <div style="height: auto;">
-         <nav class="menu">
-            <label class="logo"><a href="index.html"><img src="images/tn.png" alt=""
-                     style="width: 250px;margin-left: 20px;"></a></label>
-                     <ul class="menu_items">
-                        <li><a href="tecnologia.html"><button class="custom-btn btn-3"><span>Tecnología</span></button></a></li>
-                         <li><a href="marketing.html"><button class="custom-btn btn-3"><span>Marketing</span></button></a></li>
-                         <li><a href="nosotros.html"><button class="custom-btn btn-3"><span>Nosotros</span></button></a></li>
-                         <li><a href="contacto.html"><button class="custom-btn btn-3"><span>Contacto</span></button></a></li>
-                         <!-- <li><a href=""><button class="custom-btn btn-3"><span>Contact</span></button></a></li> -->
-                         <!-- <li style="margin: auto;background:#fff;border-radius:0px"><a href=""><span class="fi fi-es"></span></a>
-                         </li>
-                         <li style="margin: auto"><a href=""><span class="fi fi-gb"></span></a></li>
-                         <li style="margin: auto"><a href=""><span class="fi fi-no"></span></a></li> -->
-                      </ul>
+<body>
+   <div class="mainContainer">
+      <header class="header">
+         <nav>
+            <div class="logo">
+               <img src="images/tn.png" alt="" class="logoImage">
+            </div>
+            <ul class="menu_items">
+               <li><a href="tecnologia.html"><button class="custom-btn btn-3"><span>Tecnología</span></button></a></li>
+               <li><a href="marketing.html"><button class="custom-btn btn-3"><span>Marketing</span></button></a></li>
+               <li><a href="nosotros.html"><button class="custom-btn btn-3"><span>Nosotros</span></button></a></li>
+               <li><a href="contacto.html"><button class="custom-btn btn-3"><span>Contacto</span></button></a></li>
+            </ul>
             <span class="btn_menu">
                <i class="fa fa-bars"></i>
             </span>
          </nav>
-      </div>
-      <!-- <audio src="videos/soundtracka.mp3" autoplay loop></audio> -->
+      </header>
       <!-- SECCION VIDEOS HEADER -->
       <section>
          <div id="video4" class="tamaño-video-header">
@@ -68,11 +63,7 @@
                   width: 100%;">
             </video>
          </div>
-
-         <!-- style="z-index: 2;position: absolute; margin-top: -43.85%;" -->
          <div class="row softwareContainer">
-
-           
             <div class="row software1">
               
                 <div class="col-12">
@@ -90,7 +81,7 @@
                          <img src="images/xamarin2.png" alt="..." style="margin-top: 20px;width:200px">
                       </div>
                       <div class="caption">
-                         <p >Utilizamos PHP para trabajar todo el Backend del sitio</p>
+                         <p >Utilizamos Xamarin para trabajar todo el Backend del sitio</p>
                       </div>
                    </div>
                 </div> 
@@ -100,7 +91,7 @@
                          <img src="images/sqlite2.png" alt="..." style="margin-top: 20px;width:200px;">
                       </div>
                       <div class="caption">
-                         <p>Utilizamos React.js para trabajar el FrontEnd de los Sitios, siempre y cuando sea necesario o requerido por usted</p>
+                         <p>Utilizamos SQL</p>
                       </div>
                    </div>
                 </div>
@@ -110,7 +101,7 @@
                          <img src="images/asp2.png" alt="..." style="margin-top: 20px;width:200px;">
                       </div>
                       <div class="caption">
-                         <p>Con JavaScript trabajamos todas las interacciones entre el usuario y el Sitio, para que sea una experiencia mas agradable para el cliente</p>
+                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae laudantium sed nobis eaque sequi quibusdam, qui optio .</p>
                       </div>
                    </div>
                 </div>
@@ -120,7 +111,7 @@
                          <img src="images/unity2.png" alt="..." style="margin-top: 20px;width:200px;">
                       </div>
                       <div class="caption">
-                         <p >Si el sitio necesita una Maquetación y estructura personalizada, utilizamos HTML para un resultado propio y completamente adaptado al gusto del Cliente</p>
+                         <p >Utilizamos Unity</p>
                       </div>
                    </div>
                 </div>
@@ -130,21 +121,14 @@
                          <img src="images/node2.png" alt="..." style="margin-top: 20px;width:200px;">
                       </div>
                       <div class="caption">
-                         <p>Junto con HTML, utilizamos CSS para darle un estilo único y original al sitio, con completa elección del cliente en cuanto al estilo del sitio</p>
+                         <p>Node Js</p>
                       </div>
                    </div>
                 </div>
             </div>
-            <!-- <div class="col-12" style="height: 20px;">
-                <p><a href="#"><button style="margin: 0 auto;width: 300px;" class="custom-btnn btn-4" id="btn-abrir-popup3">
-                   <span>Contratar</span>
-                   </button></a>
-                </p>
-             </div> -->
             <div class="row software1">
                 <div class="col-12 headerApps">
                     <h1>
-                       <!-- style="text-align:center; color:#fff;font-size:60px; height: 20px" -->
                        WebApps
                     </h1>
                    
@@ -159,12 +143,6 @@
                      <div class="caption">
                         <p >Utilizamos PHP para trabajar todo el Backend del sitio</p>
                      </div>
-                        <!-- style="color: #fff;
-                     text-align: center;
-                     width: 200px;
-                     margin-left: 45px;
-                     " -->
-                     
                   </div>
                </div>
                <div class="col-xs-6 col-lg-2" style="margin-top: -5%;height: 400px;">
@@ -177,11 +155,6 @@
                      <div class="caption">
                         <p 
                         >Con MySql hacemos todo la gestión de base de datos de forma segura y encriptada </p>
-                        <!-- style="color: #fff;
-                     text-align: center;
-                     width: 200px;
-                     margin-left: 45px;
-                     " -->
                      </div>
                   </div>
                </div>
@@ -197,11 +170,6 @@
                         >
                            Utilizamos React.js para trabajar el FrontEnd de los Sitios, siempre y cuando sea necesario o
                            requerido por usted</p>
-                        <!-- style="color: #fff;
-                        text-align: center;
-                        width: 200px;
-                        margin-left: 45px;
-                        " -->
                      </div>
                   </div>
                </div>
@@ -217,11 +185,6 @@
                         >Con JavaScript trabajamos todas las interacciones entre el usuario y el Sitio, para que sea
                            una experiencia mas
                            agradable para el cliente</p>
-                        <!-- style="color: #fff;
-                        text-align: center;
-                        width: 200px;
-                        margin-left: 45px;
-                        " -->
                      </div>
                   </div>
                </div>
@@ -237,11 +200,6 @@
                         >Si el sitio necesita una Maquetación y estructura personalizada, utilizamos HTML para un
                            resultado propio y
                            completamente adaptado al gusto del Cliente</p>
-                        <!-- style="color: #fff;
-                        text-align: center;
-                        width: 200px;
-                        margin-left: 45px;
-                        " -->
                      </div>
                   </div>
                </div>
@@ -257,11 +215,6 @@
                         >Junto con HTML, utilizamos CSS para darle un estilo único y original al sitio, con completa
                               elección del cliente en
                               cuanto al estilo del sitio</p>
-                        <!-- style="color: #fff;
-                     text-align: center;
-                     width: 200px;
-                     margin-left: 45px;
-                     " -->
                      </div>
                   </div>
                </div>
@@ -296,8 +249,6 @@
 </nav>
    <script type="text/javascript" src="js/app.js"></script>
    <script type="text/javascript" src="js/img.js"></script>
-   <script src="js/popup2.js"></script>
-   <script src="js/popup.js"></script>
 </body>
 
 </html>

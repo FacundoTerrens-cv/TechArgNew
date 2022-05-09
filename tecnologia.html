@@ -30,45 +30,54 @@
    <script type="text/javascript" src="js/img.js"></script>
 </head>
 
-<body style="background-color: #000;overflow-x: hidden;">
-   <div style="padding: 0;background-color: #000;">
-      <div style="height: auto;">
-         <nav class="menu">
-            <label class="logo"><a href="index.html"><img src="images/tn.png" alt=""
-                     style="width: 250px;margin-left: 20px;"></a></label>
-            <ul class="menu_items">
-               <li><a href="tecnologia.html"><button class="custom-btn btn-3"><span>Tecnología</span></button></a></li>
-               <li><a href="marketing.html"><button class="custom-btn btn-3"><span>Marketing</span></button></a></li>
-               <li><a href="nosotros.html"><button class="custom-btn btn-3"><span>Nosotros</span></button></a></li>
-               <!-- <li><a href=""><button class="custom-btn btn-3"><span>Contact</span></button></a></li> -->
-               <!-- <li style="margin: auto;background:#fff;border-radius:0px"><a href=""><span class="fi fi-es"></span></a>
-                         </li>
-                         <li style="margin: auto"><a href=""><span class="fi fi-gb"></span></a></li>
-                         <li style="margin: auto"><a href=""><span class="fi fi-no"></span></a></li> -->
-            </ul>
-            <span class="btn_menu">
-               <i class="fa fa-bars"></i>
-            </span>
-         </nav>
-      </div>
+<body>
+  
+      <div class="mainContainer">
+         <header class="header">
+            <nav>
+               <div class="logo">
+                  <img src="images/tn.png" alt="" class="logoImage">
+               </div>
+               <!-- <span class="btn_menu">
+                  <i class="fa fa-bars"></i>
+               </span> -->
+               <!-- cambio random -->
+               <ul class="menu_items">
+                  <li><a href="tecnologia.html"><button class="custom-btn btn-3"><span>Tecnología</span></button></a></li>
+                  <li><a href="marketing.html"><button class="custom-btn btn-3"><span>Marketing</span></button></a></li>
+                  <li><a href="nosotros.html"><button class="custom-btn btn-3"><span>Nosotros</span></button></a></li>
+                  <li><a href="contacto.html"><button class="custom-btn btn-3"><span>Contacto</span></button></a></li>
+                  <!-- <li><a href=""><button class="custom-btn btn-3"><span>Contact</span></button></a></li> -->
+                  <!-- <li style="margin: auto;background:#fff;border-radius:0px"><a href=""><span class="fi fi-es"></span></a>
+                  </li>
+                  <li style="margin: auto"><a href=""><span class="fi fi-gb"></span></a></li>
+                  <li style="margin: auto"><a href=""><span class="fi fi-no"></span></a></li> -->
+               </ul>
+               <span class="btn_menu">
+                  <i class="fa fa-bars"></i>
+               </span>
+            </nav>
+         </header>
       <!-- <audio src="videos/soundtracka.mp3" autoplay loop></audio> -->
       <!-- SECCION VIDEOS HEADER -->
       <section>
-         <div id="video4" class="tamaño-video-header">
-            <video autoplay muted="muted" loop="loop" preload="true" playsinline src="videos/Header3.mp4" style="position: absolute;
+         <div>
+            <div id="video4" class="tamaño-video-header">
+               <video autoplay muted="muted" loop="loop" preload="true" playsinline src="videos/Header3.mp4" style="position: absolute;
                   z-index: 2;
                   height: 90vh;"></video>
-         </div>
-         <div id="video3">
-            <video autoplay muted="muted" loop="loop" preload="true" width="100%" playsinline src="videos/Header3.mp4"
-               style="position: absolute;
+            </div>
+            <div id="video3">
+               <video autoplay muted="muted" loop="loop" preload="true" width="100%" playsinline
+                  src="videos/Header3.mp4" style="position: absolute;
                   z-index: 2;
                   height: auto;
-                  width: 100%;">
-            </video>
+                  ">
+               </video>
+            </div>
          </div>
          <div class="caretag-text-box-recuadros"></div>
-         <div class="row containerMarketing" style="background-color: rgba(0, 0, 0, .7);height: 90vh;">
+         <div class="row containerMarketing">
             <div class="col-12">
                <h1> TECNOLOGIAS</h1>
             </div>
@@ -83,8 +92,8 @@
                            del mercado, con asesoramiento de principio a fin del proyecto</p>
                         <div class="buttonContainer">
 
-                           <button class="custom-btnn btn-4"  style="width: 70%;
-                              bottom:20px"><span> <a href="webapps.html">Web Development</a></span></button>
+                           <button class="custom-btnn btn-4" style="width: 70%;
+                              "><span> <a href="webapps.html">Web Development</a></span></button>
                         </div>
                      </div>
                   </div>
@@ -100,7 +109,7 @@
                            más tecnológico y novedoso posible</p>
                         <div class="buttonContainer">
 
-                           <button class="custom-btnn btn-4"  style="bottom:20px"><span><a
+                           <button class="custom-btnn btn-4"><span><a
                                     href="iot.html">IOT</a></span></button>
                         </div>
                      </div>
@@ -117,8 +126,8 @@
                         </p>
                         <div class="buttonContainer">
 
-                           <button class="custom-btnn btn-4"  style="width: 70%;
-                           bottom:20px"><span> <a href="software.html">Software
+                           <button class="custom-btnn btn-4" style="width: 70%;
+                  "><span> <a href="software.html">Software
                                     Development</a></span></button>
                         </div>
                      </div>
@@ -133,15 +142,16 @@
                            completamente profesionales</p>
                         <div class="buttonContainer">
 
-                           <button class="custom-btnn btn-4"  style="width: 70%;
-                              bottom:20px"><span> <a href="hardware.html">Hardware</a></span></button>
+                           <button class="custom-btnn btn-4" style="width: 70%;
+                              "><span> <a href="hardware.html">Hardware</a></span></button>
                         </div>
                      </div>
                   </div>
                </div>
             </div>
          </div>
-         <nav class="menu" style="background-color: #000;z-index: 4000; position: absolute; padding-bottom: 30px;">
+         <!-- style="background-color: #000;z-index: 4000; position: absolute; padding-bottom: 30px;" -->
+         <nav class="menuFooter">
             <div style="margin: 0 auto;">
                <label class="logo" style="padding-left: 0px;"><img src="images/webii55.png" alt=""
                      style="width: 205px;"></label>
@@ -152,8 +162,8 @@
             </div>
             </span>
          </nav>
+      </section>
    </div>
-   </section>
    <script src="js/popup2.js"></script>
    <script src="js/popup.js"></script>
 

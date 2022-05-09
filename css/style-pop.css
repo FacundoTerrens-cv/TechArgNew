@@ -1,4 +1,4 @@
-.overlay {
+/* .overlay {
 	background: rgba(0,0,0,.3);
 	position: fixed;
 	top: 0;
@@ -89,7 +89,7 @@
 /* ------------------------- */
 /* ANIMACIONES */
 /* ------------------------- */
-.popup.active {	transform: scale(1); opacity: 1; }
+/* .popup.active {	transform: scale(1); opacity: 1; }
 .popup.active h3 { animation: entradaTitulo .8s ease .5s forwards; }
 .popup.active h4 { animation: entradaSubtitulo .8s ease .5s forwards; }
 .popup.active .contenedor-inputs { animation: entradaInputs 1s linear 1s forwards; }
@@ -121,4 +121,4 @@
 @keyframes entradaInputs {
 	from { opacity: 0; }
 	to { opacity: 1; }
-} 
+}   */
