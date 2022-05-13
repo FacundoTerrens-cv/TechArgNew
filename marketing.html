@@ -26,14 +26,13 @@
       }
    </style>
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-   <script type="text/javascript" src="js/app.js"></script>
-   <script type="text/javascript" src="js/img.js"></script>
+
 </head>
 
 <body style="background-color: #000;overflow-x: hidden;">
    <div style="padding: 0;background-color: #000;">
       <header class="header">
-         <nav>
+         <nav class="navDesktop">
             <div class="logo">
                <img src="images/tn.png" alt="" class="logoImage">
             </div>
@@ -55,6 +54,32 @@
             <span class="btn_menu">
                <i class="fa fa-bars"></i>
             </span>
+         </nav>
+         <nav class="navbar navbar-expand-lg navbar-dark navMobile">
+            <div class="container-fluid navMobileInner">
+               <a class="navbar-brand" href="index.html"><img width='200px' src="images/tn.png" alt="logo webii"></a>
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+
+                     <li class="nav-item">
+                        <a class="nav-link" href="tecnologia.html">Tecnología</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="marketing.html">Marketing</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link " href="contacto.html"">Contacto</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
          </nav>
       </header>
       <!-- <audio src="videos/soundtracka.mp3" autoplay loop></audio> -->
@@ -79,7 +104,7 @@
                <h1>MARKETING</h1>
                <!-- style="text-align:center; color:#fff;font-size:100px" -->
             </div>
-            <div>
+            <div class="imgMarketing">
                <!-- style="display: flex;margin-top: -3%;" -->
                <img src="images/funcional3.png" alt="" style="margin:0 auto;width:100px;height:100px;display:block">
                <h2 style="font-size:30px; text-align: center;">Nuestros servicios</h2>
@@ -92,14 +117,14 @@
                         <p>Una Pymes necesita un completo asesoramiento para entrar en el
                            mercado y difusión en redes sociales. Si están comenzando, pónganse en contacto
                            con nosotros, para brindarles el mejor servicio. Si tienes una idea genial, pero no
-                           tienes los fondos para arrancar con tu emprendimiento, nosotros te podemos ayudar. Inscríbase en nuestro plan
+                           tienes los fondos para arrancar con tu emprendimiento, nosotros te podemos ayudar. Inscríbase
+                           en nuestro plan
                            de Incubación de Proyectos.</p>
-                           <div class="buttonContainer">
+                        <div class="buttonContainer">
 
-                              <button class="custom-btnn btn-4" id="btn-abrir-popup3" style="width: 30%;
-                              bottom:20px"><span> <a
-                                       href="marketing-pag.html">Leer Mas</a></span></button>
-                           </div>
+                           <button class="custom-btnn btn-4" id="btn-abrir-popup3" style="width: 30%;
+                              bottom:20px"><span> <a href="marketing-pag.html">Leer Mas</a></span></button>
+                        </div>
                      </div>
                   </div>
                </div>
@@ -109,15 +134,15 @@
                      <h1 class="card-title">PLAN EMPRESARIAL</h1>
                      <div class="caption">
                         <p>Una empresa siempre puede ser más exitosa. <br>
-                           Muchas veces es difícil expandirse al exterior del país, por eso te podemos ayudar a buscar nuevos horizontes.
+                           Muchas veces es difícil expandirse al exterior del país, por eso te podemos ayudar a buscar
+                           nuevos horizontes.
                            Tenemos contactos con
                            las empresas más exitosas de Europa y una amplia experiencia en el
                            Marketing Europeo, trabajando con las ultimas tendencias y estrategias, para que tu marca sea
                            de las mejores posicionada. </p>
                         <div class="buttonContainer">
 
-                           <button class="custom-btnn btn-4" id="btn-abrir-popup3"
-                           style="bottom:15px"><span><a
+                           <button class="custom-btnn btn-4" id="btn-abrir-popup3" style="bottom:15px"><span><a
                                     href="marketing-emp.html">Leer Más</a></span></button>
                         </div>
                      </div>
@@ -131,18 +156,17 @@
                         <p>Si tu empresa ya es de renombre, no podrás quedarte atrás y mantener
                            tu status, deveras mantenerte constantemente pendiente a las tendencias del mercado, para
                            siempre estar entre las empresas más exitosas, mejora aún más la visualización de tu marca,
-                           para que aun más clientes confíen en ella, y nuevos clientes opten por tu marca 
+                           para que aun más clientes confíen en ella, y nuevos clientes opten por tu marca
                         </p>
                         <div class="buttonContainer">
 
                            <button class="custom-btnn btn-4" id="btn-abrir-popup3" style="width: 30%;
-                           bottom:20px"><span> <a
-                                    href="marketing-enter.html">Leer Más</a></span></button>
+                           bottom:20px"><span> <a href="marketing-enter.html">Leer Más</a></span></button>
                         </div>
                      </div>
                   </div>
                </div>
-              
+
             </div>
          </div>
          <nav class="menu" style="background-color: #000; position: relative; z-index: 3000; bottom: -200px;">
@@ -160,8 +184,16 @@
    </section>
    <script src="js/popup2.js"></script>
    <script src="js/popup.js"></script>
-   
+
    </div>
+   <script type="text/javascript" src="js/app.js"></script>
+   <script type="text/javascript" src="js/img.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"></script>
 </body>
 
 </html>
