@@ -1329,6 +1329,14 @@ h1 {
     top: 60px;
 }
 
+#test {
+    margin-top: 15%;
+margin-right: 0px;
+margin-left: 0px;
+font-size: 53px;
+}
+
+
 @media (max-width: 1500px) {
     .contenedor-text-caretag {
         width: auto;
@@ -1421,6 +1429,7 @@ h1 {
 
     #video4 video {
         width: 100vw;
+        object-fit: cover;
 
     }
 
@@ -1582,7 +1591,7 @@ h1 {
         background-color: #000;
     }
     .header {
-        height: 200px;
+        height: 100px;
     }
 
     .marketingCardContainer {
@@ -1610,7 +1619,7 @@ h1 {
         margin: auto;
         background-color: rgba(0, 0, 0, .5);
         height: 100%;
-        top: -20px;
+        top: -40px;
     }
     .sectionNosotros {
         background-color: #000;
@@ -1624,20 +1633,17 @@ h1 {
         font-size: 3em;
     }
     .containerCardsTecnologias {
-        background-color: rgb(0, 0, 0);
+        background-color: rgb(0, 0, 0, 0);
         width: 100vw;
     
     }
     .containerMarketing {
-        background-color: #000;
+        background-color: rgb(0, 0, 0, 0.5);
         height: 100%;
-        top: 200px;
-      
-    }
-    .containerMarketing {
-        background-color: #000;
+        top: 100px;
         width: 100vw;
     }
+  
     .caption p {
         margin: 0 auto;
     }
@@ -1646,6 +1652,7 @@ h1 {
     }
     .menuFooter {
         bottom: 0;
+        display: none;
     }
     .cardMarketing {
         width: 90%;
@@ -1681,5 +1688,13 @@ h1 {
        margin: 20px auto;
        margin-left: 10%;
    }
+   #test {
+    margin-top: 10%;
+margin-right: 0px;
+margin-left: 0px;
+font-size: 45px;
+height: 25vh;
+background-color: rgba(0, 0, 0, .5);
+}
    
 }
