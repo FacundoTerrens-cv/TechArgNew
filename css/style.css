@@ -1387,7 +1387,22 @@ h1 {
     color:#fff;
     font-size:60px
 }
-
+.containerWeb {
+    margin-top:-50px;
+}
+.marginAux {
+    margin-top:-55px;
+}
+.card {
+    align-items: center;
+}
+.lni-facebook-original{
+    font-size:40px;
+    color: white;
+}
+.lni-facebook-original:hover {
+    color: #9B1ADE;
+}
 @media (max-width: 1500px) {
     .contenedor-text-caretag {
         width: auto;
@@ -1836,5 +1851,12 @@ h1 {
     }
     .thumbnail {
         margin-bottom: 20px;
+    }
+    .buttonContainer {
+        margin: auto;
+        width: 80%;
+    }
+    .marginAux {
+        margin-top: 20px;
     }
 }
