@@ -1832,4 +1832,11 @@ h1 {
     .thumbnail {
         margin-bottom: 20px;
     }
+    .buttonContainer {
+        margin: auto;
+        width: 80%;
+    }
+    .marginAux {
+        margin-top: 20px;
+    }
 }
