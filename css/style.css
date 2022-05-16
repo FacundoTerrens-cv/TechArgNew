@@ -1200,8 +1200,6 @@ h1 {
     margin-bottom: 200px;
     z-index: 3000;
     align-items: center;
-
-
 }
 
 .cardTecnologia {
@@ -1468,7 +1466,7 @@ h1 {
         margin: 0 auto;
     }
     #container-marketing{
-        height: 67.5vh;
+        height: 63.8vh;
     }
     #container-marketing-emp{
         background: rgba(0,0,0,.5);
