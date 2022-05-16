@@ -28,7 +28,7 @@ h1 {
     }
 }
 
-#seccion-financiamiento {
+/* #seccion-financiamiento {
     display: block;
 }
 
@@ -42,7 +42,7 @@ h1 {
 
 #other-sections {
     display: none;
-}
+} */
 
 .h1-section {
     font-family: 'mifuente';
@@ -372,11 +372,27 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-
-
+    position: absolute;
+    height:100px;
+    width: 100%;
+    bottom: 0;
 }
-
+.buttonContainer button {
+    position: relative;
+    bottom: 0;
+}
+.buttonContainer2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height:80px;
+    width: 80%;
+    bottom: -20px;
+}
+.buttonContainer2 button {
+    margin: auto;
+}
 .custom-btnn {
     font-size: 20px;
     width: 130px;
@@ -579,6 +595,7 @@ nav {
 .btn-5 span:hover:after {
     width: 100%;
 }
+
 
 /*seccion caretag*/
 .caretag-text-box {
@@ -1128,7 +1145,7 @@ h1 {
 
 .headerApps {
     margin-bottom: 100px;
-    margin-top: 100px;
+    /* margin-top: 100px; */
 }
 
 .textos-nosotros {
@@ -1169,12 +1186,13 @@ h1 {
 .containerCardsTecnologias {
     margin: 0 auto;
     width: 100vw;
-    height: auto;
+    height: 90vh;
     /* margin-left: 30px; */
     margin-top: 20px;
-    margin-bottom: 60px;
+    margin-bottom: 200px;
     z-index: 3000;
     background-color: rgba(0, 0, 0, .5);
+    align-items: center;
 
 
 }
@@ -1208,6 +1226,8 @@ h1 {
 
 .software1 {
     margin: 0 auto;
+    background-color: rgba(0, 0, 0, .5);
+    margin-bottom:150px;
 }
 
 .software1 div h1 {
@@ -1220,7 +1240,10 @@ h1 {
     margin: 0 auto;
     margin-bottom: 150px;
 }
-
+.software2 {
+    background-color: black;
+    height: 60%;
+}
 .headerWebSolutions p {
     color: #fff;
     text-align: center;
