@@ -1360,8 +1360,12 @@ margin-right: 0px;
 margin-left: 0px;
 font-size: 53px;
 }
-
-
+#container-marketing-emp{
+    background: none;
+}
+#container-marketing{
+    height: 105vh;
+}
 @media (max-width: 1500px) {
     .contenedor-text-caretag {
         width: auto;
@@ -1446,6 +1450,12 @@ font-size: 53px;
     nav {
         justify-content: center;
         margin: 0 auto;
+    }
+    #container-marketing{
+        height: 67.5vh;
+    }
+    #container-marketing-emp{
+        background: rgba(0,0,0,.5);
     }
     .containerIndex {
         background-color: rgba(0, 0, 0, .5);
