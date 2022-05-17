@@ -1116,7 +1116,7 @@ h1 {
     top: 90px;
     z-index: 5000;
     background-color: rgba(0, 0, 0, 0.5);
-    height: 120vh;
+    height: 105vh;
 }
 
 .containerMarketing h2 {
@@ -1194,7 +1194,7 @@ h1 {
 .containerCardsTecnologias {
     margin: 0 auto;
     width: 100vw;
-    height: 90vh;
+    height: 55vh;
     /* margin-left: 30px; */
     margin-top: 20px;
     margin-bottom: 200px;
