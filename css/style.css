@@ -1,5 +1,14 @@
 @import url(menu.css);
 
+#video4 video {
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    z-index: 2;
+    height: 90vh;
+
+}
+
 .navMobile {
     display: none;
 }
@@ -65,7 +74,7 @@ nav {
     align-items: center;
     height: 100px;
     color: #fff;
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 10000;
     background-color: #000;
@@ -127,9 +136,6 @@ nav {
     text-decoration: none;
 }
 
-#video4 {
-    display: none;
-}
 
 .height-video {
     margin-top: 17vh;
@@ -1265,10 +1271,10 @@ h1 {
 
 .menuFooter {
     background-color: #000;
-    z-index: 4000;
-    position: absolute;
+    z-index: 5000;
+    position: fixed;
     padding-bottom: 30px;
-    bottom: -250px;
+    bottom: 0;
 }
 
 #facebook {
@@ -1454,9 +1460,6 @@ h1 {
         overflow: hidden;
     }
 
-    #video3 {
-        display: none;
-    }
 }
 
 @media (max-width: 800px) {
@@ -1478,9 +1481,7 @@ h1 {
         position: absolute;
         top: 84px;
     }
-    #video4 {
-        overflow: hidden;
-    }
+
 
     #video4 video {
         width: 100vw;
