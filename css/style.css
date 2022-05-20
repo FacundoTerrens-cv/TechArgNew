@@ -1224,7 +1224,7 @@ h1 {
 .cardTecnologia p {
     color: #fff;
     text-align: center;
-    width: 300px;
+    width: 80%;
     padding: 20px;
     margin: auto;
 }
@@ -1261,7 +1261,7 @@ h1 {
 .headerWebSolutions p {
     color: #fff;
     text-align: center;
-    width: 50%;
+    width: 80%;
     padding: 20px;
     margin: 0 auto;
 }
@@ -1740,7 +1740,7 @@ h1 {
         height: 37.9vh;
         top: 100px;
         width: 110vw;
-        height: 300%;
+        height: auto;
     }
 
     .caption p {
