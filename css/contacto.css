@@ -3854,6 +3854,7 @@
 	border-top-left-radius: calc(0.25rem - 1px);
 	border-top-right-radius: calc(0.25rem - 1px);
 	border-radius: 100%;
+	align-items: center;
 }
   
   .card-img-bottom {

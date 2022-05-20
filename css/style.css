@@ -1168,9 +1168,17 @@ h1 {
     background-color: rgba(0, 0, 0, .5);
 }
 
-.nosotrosContainer h1 {
+.nosotrosContainer h1, h2 {
     color: white;
     text-align: center;
+}
+.nosotrosContainer h1 {
+    font-size: 55px;
+    margin-top: 60px;
+}
+.nosotrosContainer h2 {
+    font-size:25px;
+    margin-bottom: 40px;
 }
 
 .cardMarketing {
@@ -1377,6 +1385,15 @@ h1 {
 #container-marketing{
     height: 105vh;
 }
+.lni-facebook-original {
+    font-size: 30px;
+    color: white;
+    z-index: 9999;
+}
+.lni-facebook-original:hover{
+    color: #9B1ADE;
+}
+
 @media (max-width: 1500px) {
     .contenedor-text-caretag {
         width: auto;
