@@ -5,7 +5,7 @@
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    z-index: 5;
+    z-index: 10000;
 }
 .logo{
     display: flex;

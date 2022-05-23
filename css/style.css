@@ -1122,7 +1122,7 @@ h1 {
     top: 90px;
     z-index: 5000;
     background-color: rgba(0, 0, 0, 0.5);
-    height: 105vh;
+    height: 160vh;
 }
 
 .containerMarketing h2 {
@@ -1200,7 +1200,7 @@ h1 {
 .containerCardsTecnologias {
     margin: 0 auto;
     width: 100vw;
-    height: 55vh;
+    height: 130vh;
     /* margin-left: 30px; */
     margin-top: 20px;
     margin-bottom: 200px;
@@ -1275,6 +1275,7 @@ h1 {
     position: fixed;
     padding-bottom: 30px;
     bottom: 0;
+    height: 120px;
 }
 
 #facebook {
@@ -1468,11 +1469,9 @@ h1 {
         margin: 0 auto;
     }
     #container-marketing{
-        height: 63.8vh;
+        height: auto;
     }
-    #container-marketing-emp{
-        background: rgba(0,0,0,.5);
-    }
+
     .containerIndex {
         background-color: rgba(0, 0, 0, .5);
         width: 100vw;
@@ -1743,8 +1742,12 @@ h1 {
     }
 
     .menuFooter {
+        background-color: #000;
+        z-index: 5000;
+        position: fixed;
+        padding-bottom: 30px;
         bottom: 0;
-        display: none;
+        height: 120px;
     }
 
     .cardMarketing {
