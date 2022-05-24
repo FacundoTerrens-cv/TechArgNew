@@ -854,7 +854,7 @@
 	.offset-sm-11 {
 	  margin-left: 91.66667%; } }
   
-  @media (min-width: 768px) {
+  @media (min-width: 920px) {
 	.col-md {
 	  -ms-flex-preferred-size: 0;
 	  flex-basis: 0;
@@ -1168,7 +1168,7 @@
 	.offset-lg-11 {
 	  margin-left: 91.66667%; } }
   
-  @media (min-width: 1200px) {
+  @media (min-width: 1400px) {
 	.col-xl {
 	  -ms-flex-preferred-size: 0;
 	  flex-basis: 0;
