@@ -3764,6 +3764,7 @@
 		color: #fff; }
   
   .card {
+	  align-items: center;
 	position: relative;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -3852,7 +3853,9 @@
   .card-img-top {
 	width: 80%;
 	border-top-left-radius: calc(0.25rem - 1px);
-	border-top-right-radius: calc(0.25rem - 1px); }
+	border-top-right-radius: calc(0.25rem - 1px); 
+	border-radius: 100%;
+}
   
   .card-img-bottom {
 	width: 100%;
