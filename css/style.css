@@ -1,5 +1,29 @@
 @import url(menu.css);
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+/* body {
+    height: 100%;
+} */
+
+h1 {
+    color: white;
+    text-align: center;
+}
+.lni{
+    font-size: 30px;
+    color: #A410DA;
+    margin-right: 20px;
+
+}
+.footerImage {
+    opacity: 0.5;
+    width: 100px;
+}
 #video4 video {
     width: 100vw;
     object-fit: cover;
@@ -30,7 +54,7 @@ h1 {
     color: white;
     text-transform: uppercase;
 }
-
+/* 
 .animationSpan {
     border-right: .05em solid;
     animation: caret 1s steps(1) infinite;
@@ -40,22 +64,6 @@ h1 {
     50% {
         border-color: transparent;
     }
-}
-
-/* #seccion-financiamiento {
-    display: block;
-}
-
-#colaboradores {
-    display: none;
-}
-
-#incubacion {
-    display: none;
-}
-
-#other-sections {
-    display: none;
 } */
 
 .h1-section {
@@ -67,7 +75,7 @@ nav {
     justify-content: space-between;
     width: 100%
 }
-
+/* HEADER */
 .header {
     width: 100%;
     /* display: flex; */
@@ -136,6 +144,7 @@ nav {
     text-decoration: none;
 }
 
+/* VIDEO */
 
 .height-video {
     margin-top: 17vh;
@@ -178,10 +187,12 @@ nav {
     z-index: 1;
 }
 
-#barra-paginas {
+/* #barra-paginas {
     z-index: 7;
     position: relative;
-}
+} */
+
+/* BOTONES */
 
 .custom-btn {
     width: 130px;
@@ -384,8 +395,8 @@ nav {
     justify-content: center;
     align-items: center;
     position: absolute;
-    height: 100px;
-    width: 100%;
+    height: 150px;
+    width: 70%;
     bottom: 0;
 }
 
@@ -424,7 +435,7 @@ nav {
 }
 
 .btn-4 {
-    width: 40%;
+    width: 60%;
     height: 40px;
     line-height: 42px;
     padding: 0;
@@ -683,7 +694,7 @@ nav {
     height: 110vh;
     z-index: 1000;
     position: absolute;
-    top: 84px;
+    /* top: 84px; */
 }
 
 .containerIndex h1,
@@ -799,7 +810,7 @@ nav {
     background-color: transparent;
     height: auto;
     margin: 0 auto;
-    margin-top: -8%;
+    margin-top: -200px;
 }
 
 .box-salcir {
@@ -1092,37 +1103,12 @@ nav {
     box-sizing: border-box;
 }
 
-@keyframes girar {
-    form {
-        transform: rotate(0deg);
-    }
-
-    to {
-        transform: rotate(360deg);
-    }
-}
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-html,
-body {
-    height: 100%;
-}
-
-h1 {
-    color: white;
-    text-align: center;
-}
-
 .containerMarketing {
     position: absolute;
     top: 90px;
     z-index: 5000;
     background-color: rgba(0, 0, 0, 0.5);
-    height: 160vh;
+    height: 200vh; 
 }
 
 .containerMarketing h2 {
@@ -1169,7 +1155,7 @@ h1 {
 
 .nosotrosContainer {
     position: absolute;
-    top: 200px;
+    /* top: 200px; */
     height: 110vh;
     background-color: rgba(0, 0, 0, .5);
 }
@@ -1200,7 +1186,7 @@ h1 {
 .containerCardsTecnologias {
     margin: 0 auto;
     width: 100vw;
-    height: 130vh;
+    /* height: 130vh; */
     /* margin-left: 30px; */
     margin-top: 20px;
     margin-bottom: 200px;
@@ -1273,95 +1259,10 @@ h1 {
     background-color: #000;
     z-index: 5000;
     position: fixed;
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
     bottom: 0;
-    height: 120px;
+    /* height: 120px; */
 }
-
-#facebook {
-    background: url(../images/facebook.png) center center / cover no-repeat;
-}
-
-#instagram {
-    background: url(../images/instagram.png) center center / cover no-repeat;
-}
-
-#linkedin {
-    background: url(../images/linkedin.png) center center / cover no-repeat;
-}
-
-#google {
-    background: url(../images/google.png) center center / cover no-repeat;
-}
-
-#caretag1 {
-    background: url(../images/caretag3.png) center center / cover no-repeat;
-}
-
-#caretag2 {
-    background: url(../images/caretag2.png) center center / cover no-repeat;
-}
-
-#caretag3 {
-    background: url(../images/caretag1.png) center center / cover no-repeat;
-}
-
-#salcir1 {
-    background: url(../images/salcir1.png) center center / cover no-repeat;
-}
-
-#salcir2 {
-    background: url(../images/salcir2.png) center center / cover no-repeat;
-}
-
-#salcir3 {
-    background: url(../images/salcir3.png) center center / cover no-repeat;
-}
-
-#diings1 {
-    background: url(../images/diings5.png) center center / cover no-repeat;
-}
-
-#salcir2 {
-    background: url(../images/salcir2.png) center center / cover no-repeat;
-}
-
-#salcir3 {
-    background: url(../images/salcir3.png) center center / cover no-repeat;
-}
-
-#colaborador1 {
-    background: url(../images/colaborador1.png) center center / cover no-repeat;
-}
-
-#colaborador2 {
-    background: url(../images/colaborador2.png) center center / cover no-repeat;
-}
-
-#colaborador3 {
-    background: url(../images/colaborador3.png) center center / cover no-repeat;
-}
-
-#colaborador4 {
-    background: url(../images/colaborador4.png) center center / cover no-repeat;
-}
-
-#colaborador5 {
-    background: url(../images/colaborador5.png) center center / cover no-repeat;
-}
-
-#colaborador6 {
-    background: url(../images/colaborador6.png) center center / cover no-repeat;
-}
-
-#colaborador7 {
-    background: url(../images/colaborador7.png) center center / cover no-repeat;
-}
-
-#colaborador8 {
-    background: url(../images/colaborador8.png) center center / cover no-repeat;
-}
-
 .containerContacto {
     top: 60px;
 }
@@ -1381,10 +1282,10 @@ h1 {
 #container-marketing-emp{
     background: none;
 }
-#container-marketing{
+/* #container-marketing{
     height: 105vh;
-}
-@media (max-width: 1500px) {
+} */
+@media (min-width: 1400px) {
     .contenedor-text-caretag {
         width: auto;
         height: auto;
@@ -1394,21 +1295,42 @@ h1 {
         width: auto;
         height: auto;
     }
+    .buttonContainer {
+        width: 100%;
+    }
+    .containerMarketing {
+        height: 115vh;
+    }
 
 }
-
+@media (max-width:1400px) {
+    .cardTecnologia {
+        max-width:450px;
+        margin:auto;
+        margin-bottom:25px;
+    }
+    .buttonContainer {
+        width: 450px;
+    }
+    .caption {
+        height: 100%;
+    }
+    .thumbnail {
+        margin-bottom: 70px;;
+    }
+}
 @media (max-width: 1200px) {
-    .positionmenu {
+    /* .positionmenu {
         float: left;
         width: 50%;
         height: auto;
-    }
+    } */
 
-    .positionmenu1 {
+    /* .positionmenu1 {
         float: left;
         width: 100%;
         height: auto;
-    }
+    } */
 
     .contenedor-info {
         margin-top: 20px;
@@ -1418,7 +1340,7 @@ h1 {
         display: flex;
         width: 100%;
         background-color: transparent;
-        margin-top: -25%;
+        margin-top: -12%;
     }
 
     .custom-btnn {
@@ -1429,26 +1351,7 @@ h1 {
 }
 
 @media (max-width: 1200px) {
-    #barra-paginas {
-        display: none;
-    }
-
-    #seccion-colaboradores {
-        display: none;
-    }
-
-    .positionmenu {
-        float: left;
-        width: 20%;
-        height: auto;
-    }
-
-    .positionmenu1 {
-        float: left;
-        width: 20%;
-        height: auto;
-    }
-
+ 
     .contenedor-info {
         margin-top: 20px;
     }
@@ -1478,7 +1381,7 @@ h1 {
         height: 80vh;
         z-index: 1000;
         position: absolute;
-        top: 84px;
+        /* top: 84px; */
     }
 
 
@@ -1544,35 +1447,9 @@ h1 {
         font-size: 50px;
         margin-bottom: 0;
     }
-
-    .filtro-negro {
-        display: none;
-    }
-
-    .filtro-blanco {
-        display: none;
-    }
-
-    .positionmenu {
-        float: left;
-        width: 50%;
-        height: auto;
-    }
-
-    .positionmenu1 {
-        float: left;
-        width: 100%;
-        height: auto;
-    }
-
     .contenedor-info {
         margin-top: 20px;
     }
-
-    .box-salcir {
-        margin-top: 60%;
-    }
-
     .contenido-box-caretag {
         font-weight: 300;
         margin-top: 100%;
@@ -1596,10 +1473,6 @@ h1 {
         background-size: cover;
     }
 
-    /* .tamaño-video-header{
-        height: 100vh;
-    } */
-
     .header {
         width: 100%;
         z-index: 60000;
@@ -1607,14 +1480,6 @@ h1 {
         height: 50%;
 
     }
-
-    #video2 {
-        width: 100%;
-        height: 100%;
-        position: relative;
-        overflow: hidden;
-    }
-
     .tamaño-webapp {
         height: 220px;
     }
@@ -1652,7 +1517,10 @@ h1 {
     width: 30vw;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) {}
+.titleIndexContainer {
+    margin-top: 140px;
+}
     #backgroundCards {
         background: rgba(0, 0, 0, .5);
     }
@@ -1747,7 +1615,7 @@ h1 {
         position: fixed;
         padding-bottom: 30px;
         bottom: 0;
-        height: 120px;
+        height: 70px;
     }
 
     .cardMarketing {
@@ -1817,7 +1685,7 @@ h1 {
     }
 
     .containerIndex {
-        height: 80vh;
+        height: 140vh;
     }
 
     .navbar-collapse {
@@ -1843,4 +1711,3 @@ h1 {
     .marginAux {
         margin-top: 20px;
     }
-}
