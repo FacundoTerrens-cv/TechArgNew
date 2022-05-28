@@ -1160,9 +1160,17 @@ nav {
     background-color: rgba(0, 0, 0, .5);
 }
 
-.nosotrosContainer h1 {
+.nosotrosContainer h1, h2 {
     color: white;
     text-align: center;
+}
+.nosotrosContainer h1 {
+    font-size: 55px;
+    margin-top: 60px;
+}
+.nosotrosContainer h2 {
+    font-size:25px;
+    margin-bottom: 40px;
 }
 
 .cardMarketing {
@@ -1282,10 +1290,19 @@ nav {
 #container-marketing-emp{
     background: none;
 }
-/* #container-marketing{
+ #container-marketing{
     height: 105vh;
-} */
-@media (min-width: 1400px) {
+}
+.lni-facebook-original {
+    font-size: 30px;
+    color: white;
+    z-index: 9999;
+}
+.lni-facebook-original:hover{
+    color: #9B1ADE;
+}
+
+@media (max-width: 1500px) {
     .contenedor-text-caretag {
         width: auto;
         height: auto;
@@ -1473,6 +1490,10 @@ nav {
         background-size: cover;
     }
 
+    /* .tamaño-video-header{
+        height: 100vh;
+    } */
+/* 
     .header {
         width: 100%;
         z-index: 60000;
@@ -1501,7 +1522,7 @@ nav {
         margin-bottom: 20px;
     }
 
-}
+} */
 
 .marketingCardContainer {
     justify-content: center;
@@ -1711,3 +1732,4 @@ nav {
     .marginAux {
         margin-top: 20px;
     }
+}
