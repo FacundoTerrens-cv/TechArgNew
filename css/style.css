@@ -14,28 +14,27 @@ h1 {
     color: white;
     text-align: center;
 }
+
 body {
     background-color: black;
 }
-.logo img{
+
+.logo img {
     width: 200px;
     padding: 10px;
 }
 
 .logoImg {
-    width:200px;
+    width: 200px;
 }
 
-.lni{
-    font-size: 30px;
-    color: #A410DA;
-    margin-right: 20px;
 
-}
+
 .footerImage {
     opacity: 0.5;
     width: 170px;
 }
+
 #video4 video {
     width: 100vw;
     object-fit: cover;
@@ -66,6 +65,7 @@ h1 {
     color: white;
     text-transform: uppercase;
 }
+
 /* 
 .animationSpan {
     border-right: .05em solid;
@@ -87,6 +87,7 @@ nav {
     justify-content: space-between;
     width: 100%
 }
+
 /* HEADER */
 .header {
     width: 100%;
@@ -424,8 +425,8 @@ nav {
     align-items: center;
     position: absolute;
     height: 110px;
-    width: 80%;
-    bottom: -20px; 
+    width: 100%;
+    bottom: -20px;
 }
 
 .buttonContainer2 button {
@@ -468,7 +469,7 @@ nav {
 }
 
 .btn-4 span a {
-    width: 100%; 
+    width: 100%;
     display: block;
 }
 
@@ -641,6 +642,7 @@ nav {
     margin: 0 auto;
     /* margin-top: 150px; */
 }
+
 /*seccion caretag*/
 .caretag-text-box {
     display: flex;
@@ -980,8 +982,15 @@ nav {
 
 .caption p {
     color: white;
+    color: #fff;
+    text-align: center;
+    /* width: 300px; */
+    margin: 20px auto;
+    font-size: 20px;
 }
-
+#container-marketing-emp p {
+    width: 300px;
+}
 #titulofoto {
     font-size: 25px;
     color: #fff;
@@ -1128,6 +1137,9 @@ nav {
     background-color: rgba(0, 0, 0, 0.5);
     /* height: 200vh;  */
 }
+.heightHardware {
+    height:100vh;
+}
 
 .containerMarketing h2 {
     color: #fff;
@@ -1173,34 +1185,37 @@ nav {
 
 .nosotrosContainer {
     position: absolute;
-    top: 210px; 
+    top: 210px;
     height: 115vh;
     background-color: rgba(0, 0, 0, .5);
 }
 
-.nosotrosContainer h1, h2 {
+.nosotrosContainer h1,
+h2 {
     color: white;
     text-align: center;
 }
+
 .nosotrosContainer h1 {
     font-size: 55px;
     margin-top: 80px;
 }
+
 .nosotrosContainer h2 {
-    font-size:25px;
+    font-size: 25px;
     margin-bottom: 40px;
 }
 
 .cardMarketing {
     border: 2px solid white;
-    height: 515px;
+    height: 600px;
     top: 0;
     margin: auto;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 400px;
+    width: auto;
     background-color: rgba(0, 0, 0, .5);
 
 }
@@ -1248,7 +1263,7 @@ nav {
     z-index: 2000;
     height: 200vh;
     background: rgba(0, 0, 0, .5);
-     height:280vh; 
+    height: 280vh;
 }
 
 .software1 {
@@ -1266,6 +1281,7 @@ nav {
     /* margin-bottom: 150px; */
     font-size: 18px;
 }
+
 .software2 div p {
     color: #fff;
     width: 60%;
@@ -1283,6 +1299,7 @@ nav {
     display: block;
     margin: 0 auto;
 }
+
 .headerWebSolutions p {
     color: #fff;
     text-align: center;
@@ -1303,7 +1320,13 @@ nav {
     /* padding-bottom: 30px; */
     bottom: 0;
     /* height: 120px; */
+    display: flex;
+    align-items: center;
 }
+.containerRedes {
+    width: 30%;
+}
+
 .containerContacto {
     top: 60px;
     position: absolute;
@@ -1324,35 +1347,49 @@ nav {
     display: block;
     width: 20%;
 } */
-#container-marketing-emp{
+#container-marketing-emp {
     background: none;
 }
- #container-marketing{
-    height: 175vh;
+
+#container-marketing {
+    /* height: 175vh; */
 }
-.lni-facebook-original {
+
+.lni-facebook-original, .lni-instagram-original {
     font-size: 30px;
-    color: white;
-    z-index: 9999;
-    margin-top: 20px;
-}
-.lni-facebook-original:hover{
     color: #9B1ADE;
+    z-index: 9999;
+    margin: 20px;
 }
-.titleTecnologia { 
+
+.lni-facebook-original:hover, .lni-instagram-original:hover {
+    color: white;
+}
+
+.titleTecnologia {
     width: 100vw;
     display: block;
     margin-bottom: 80px;
 }
+
 .titleTecnologia h3 {
     color: white;
     text-align: center;
 }
+
 .priceTitle {
     color: white;
     text-align: center;
 }
-@media (min-width: 1500px) {
+.volver {
+    color: white;
+    margin: 20px 20px;
+}
+.volver:hover {
+    text-decoration: underline;
+    color: rgb(189, 189, 189);
+}
+@media (min-width: 1400px) {
     .contenedor-text-caretag {
         width: auto;
         height: auto;
@@ -1362,9 +1399,11 @@ nav {
         width: auto;
         height: auto;
     }
+
     .buttonContainer {
         width: 100%;
     }
+
     /* .containerMarketing {
         height: 240vh;
     } */
@@ -1375,39 +1414,54 @@ nav {
     .softwareContainer {
         height: 200vh;
     }
+
     .softwareButton {
         width: 70%;
     }
+
     .cardTecnologia {
         height: 520px;
     }
+
     .cardTecnologia p {
         width: 90%;
     }
+
     .cardBooking2 {
         height: 700px;
     }
-}
-@media (max-width:1400px) {
-  
-    .cardTecnologia {
-        max-width:450px;
-        margin:auto;
-        margin-bottom:25px;
-        
+    .cardMarketing {
+        width: 400px;
+        height: 700px;
     }
+}
+
+@media (max-width:1400px) {
+
+    .cardTecnologia {
+        max-width: 450px;
+        margin: auto;
+        margin-bottom: 25px;
+
+    }
+
     .buttonContainer {
         width: 450px;
     }
+
     .caption {
         height: 100%;
     }
+
     .thumbnail {
-        margin-bottom: 70px;;
+        margin-bottom: 70px;
+        ;
     }
+
     .cardBooking {
         height: 650px;
     }
+
     .cardBooking2 {
         height: 650px;
     }
@@ -1415,7 +1469,7 @@ nav {
 
 
 @media (max-width: 1200px) {
-   
+
     .caretag-text-box-recuadros {
         display: flex;
         width: 100%;
@@ -1427,6 +1481,7 @@ nav {
         border-radius: 15px;
         font-size: 15px;
     }
+
     .contenedor-info {
         margin-top: 20px;
     }
@@ -1451,7 +1506,8 @@ nav {
         justify-content: center;
         margin: 0 auto;
     }
-    #container-marketing{
+
+    #container-marketing {
         height: auto;
     }
 
@@ -1527,9 +1583,11 @@ nav {
         font-size: 50px;
         margin-bottom: 0;
     }
+
     .contenedor-info {
         margin-top: 20px;
     }
+
     .contenido-box-caretag {
         font-weight: 300;
         margin-top: 100%;
@@ -1556,7 +1614,7 @@ nav {
     /* .tamaño-video-header{
         height: 100vh;
     } */
-/* 
+    /* 
     .header {
         width: 100%;
         z-index: 60000;
@@ -1587,28 +1645,31 @@ nav {
 
 } */
 
-.marketingCardContainer {
-    justify-content: center;
+    .marketingCardContainer {
+        justify-content: center;
 
+    }
+
+    .marketingCard {
+        margin-left: 20px;
+        margin-right: 20px;
+        /* margin-top: 50px; */
+        margin-bottom: 200px;
+        border-radius: 30px;
+        width: 30vw;
+    }
 }
 
-.marketingCard {
-    margin-left: 20px;
-    margin-right: 20px;
-    /* margin-top: 50px; */
-    margin-bottom: 200px;
-    border-radius: 30px;
-    width: 30vw;
-}
-}
 @media (max-width: 768px) {
     .footerImage {
         opacity: 0.5;
         width: 100px;
     }
-.titleIndexContainer {
-    margin-top: 40px;
-}
+
+    .titleIndexContainer {
+        margin-top: 40px;
+    }
+
     #backgroundCards {
         background: rgba(0, 0, 0, .5);
     }
@@ -1633,8 +1694,8 @@ nav {
         width: 60vw;
         margin: auto;
     }
-   
-    
+
+
 
     .col-lg-5 {
         position: initial;
@@ -1701,6 +1762,7 @@ nav {
         padding-bottom: 30px;
         bottom: 0;
         height: 100px;
+        display: flex;
     }
 
     .cardMarketing {
@@ -1708,9 +1770,11 @@ nav {
         margin-bottom: 30px;
         height: 650px;
     }
+
     .cardMarketing p {
         padding: 20px;
     }
+
     .navMobile {
         display: block;
         width: 100vw;
@@ -1749,7 +1813,7 @@ nav {
     }
 
     #test {
-         margin: 0;
+        margin: 0;
         font-size: 45px;
         height: 25vh;
     }
@@ -1783,47 +1847,77 @@ nav {
         width: 100%;
         padding: 20px;
     }
+
     .containerMarketingChild {
         height: 400%;
     }
+
     .containerMarketingChild h1 {
-        text-align:center; 
-        color:#fff;
-        font-size:50px
+        text-align: center;
+        color: #fff;
+        font-size: 50px
     }
+
     .thumbnail {
         margin-bottom: 20px;
     }
+
     .buttonContainer {
         margin: auto;
         width: 80%;
     }
+
     .marginAux {
         margin-top: 20px;
     }
+
     .nosotrosContainer {
         height: 334vh;
         background-color: rgba(0, 0, 0, .5);
 
     }
-    .logo img{
+
+    .logo img {
         width: 200px;
         padding: 10px;
     }
+
     .softwareContainer {
         height: 560vh;
     }
+
     .titleSoftware {
-       margin-top: 70px;
-    }.containerTecnologias {
-        width: 105vw;;
+        margin-top: 70px;
+    }
+
+    .containerTecnologias {
+        width: 105vw;
+        ;
+    }
+    .containerRedes {
+        width: auto;
     }
 }
-@media (min-width: 350px) and (max-width:400px) {
-    
-        .sectionNosotros {
-            height: 200vh;
-        }
 
-    
+@media (min-width: 375px) and (max-width:400px) {
+
+    .sectionNosotros {
+        height: 200vh;
+    }
+
+    .nosotrosContainer {
+        height: 400vh;
+    }
+}
+
+@media (max-width:375px) {
+    .nosotrosContainer {
+        height: 400vh;
+    }
+}
+
+@media (min-width:600px) and (max-width:700px) {
+    .nosotrosContainer {
+        height: 380vh;
+    }
 }
